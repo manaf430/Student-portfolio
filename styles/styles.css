@@ -62,3 +62,30 @@ body {
     justify-content: center;
   }
 }
+
+.hero {
+  background: linear-gradient(135deg, #1d4ed8, #0ea5e9);
+  color: #ffffff;
+  border-radius: 14px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero h2 {
+  margin-bottom: 0.75rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.2rem;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #0f172a;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.cta-button:hover {
+  background: #e2e8f0;
+}
