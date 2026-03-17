@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1 {
+    color: blue;
+}
+
+/* MEDIA QUERY (REQUIRED) */
+@media (max-width: 600px) {
+    body {
+        background-color: lightgray;
+    }
+}
