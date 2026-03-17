@@ -125,3 +125,49 @@ body {
     justify-content: center;
   }
 }
+
+/* Member 3 - Join Page Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+}
+
+table th {
+    background: #1a237e;
+    color: white;
+    padding: 10px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+    table {
+        font-size: 14px;
+    }
+    
+    table td, table th {
+        padding: 5px;
+    }
+    
+    section {
+        padding: 15px;
+        margin: 10px 0;
+    }
+}
