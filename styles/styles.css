@@ -125,3 +125,129 @@ body {
     justify-content: center;
   }
 }
+/* Member 2 - Events Page Styles */
+
+.events-section {
+    background: white;
+    padding: 25px;
+    margin: 25px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.events-section h3 {
+    color: #1a237e;
+    border-bottom: 2px solid #1a237e;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.event-card {
+    background: #f8f9fa;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    border-left: 5px solid #1a237e;
+    transition: transform 0.2s;
+}
+
+.event-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.event-card h4 {
+    color: #1a237e;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.event-meta {
+    margin: 5px 0;
+    color: #555;
+}
+
+.event-meta strong {
+    color: #333;
+    width: 60px;
+    display: inline-block;
+}
+
+.event-description {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ddd;
+    color: #666;
+    font-style: italic;
+}
+
+.events-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.events-table th {
+    background: #1a237e;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.events-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.events-table tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
+.events-table tr:hover {
+    background: #e8eaf6;
+}
+
+.subtitle {
+    color: #666;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+    .events-section {
+        padding: 15px;
+        margin: 15px 0;
+    }
+    
+    .event-card {
+        padding: 15px;
+    }
+    
+    .event-meta strong {
+        width: 100%;
+        display: block;
+        margin-bottom: 3px;
+    }
+    
+    .events-table {
+        font-size: 14px;
+    }
+    
+    .events-table th,
+    .events-table td {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .events-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    
+    .event-card h4 {
+        font-size: 1.1em;
+    }
+}
