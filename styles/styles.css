@@ -52,6 +52,69 @@ body {
   padding: 1rem;
   margin-top: 2rem;
 }
+/* Highlights Page Styles - Member 4 */
+.highlights-intro {
+    text-align: center;
+    padding: 2rem;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.highlights-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.highlight-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    border-left: 4px solid #ffd700;
+}
+
+.highlight-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.highlight-card h3 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.highlight-card .achievement {
+    font-weight: bold;
+    color: #e67e22;
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+/* Responsive design - media queries */
+@media (max-width: 768px) {
+    .highlights-gallery {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .highlight-card {
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .highlights-intro {
+        padding: 1rem;
+    }
+    
+    .highlight-card h3 {
+        font-size: 1.1rem;
+    }
+}
 
 @media (max-width: 768px) {
   .site-header {
