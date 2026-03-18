@@ -1,34 +1,134 @@
 <!DOCTYPE html>
-<html lang=""en"">
+<html lang="en">
 <head>
-  <meta charset=""UTF-8"" />
-  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
-  <title>University Student Clubs Portal - Events</title>
-  <link rel=""stylesheet"" href=""../styles/styles.css"" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Events - University Clubs Portal</title>
+    <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <body>
-  <header class=""site-header"">
-    <h1>University Student Clubs Portal</h1>
-    <nav>
-      <ul class=""nav-list"">
-        <li><a href=""index.html"">Home</a></li>
-        <li><a href=""clubs.html"">Clubs</a></li>
-        <li><a href=""events.html"">Events</a></li>
-        <li><a href=""join.html"">Join</a></li>
-        <li><a href=""highlights.html"">Highlights</a></li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+        <h1>University Clubs Portal</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="events.html">Events</a>
+            <a href="join.html">Join</a>
+            <a href="highlights.html">Highlights</a>
+        </nav>
+    </header>
 
-  <main class=""content"">
-    <section>
-      <h2>Events</h2>
-      <p>Content for the Events page will be added by the assigned team member.</p>
-    </section>
-  </main>
+    <main>
+        <h2>Upcoming Club Events</h2>
+        <p class="subtitle">Join us for these exciting activities this semester!</p>
+        
+        <section class="events-section">
+            <h3>This Week's Events</h3>
+            
+            <div class="event-card">
+                <h4>Tech Workshop: Introduction to Web Development</h4>
+                <p class="event-meta"><strong>Club:</strong> Tech Club</p>
+                <p class="event-meta"><strong>Date:</strong> Monday, March 25, 2026</p>
+                <p class="event-meta"><strong>Time:</strong> 3:00 PM - 5:00 PM</p>
+                <p class="event-meta"><strong>Venue:</strong> CS Building, Lab 101</p>
+                <p class="event-description">Learn HTML, CSS, and build your first website. No experience needed!</p>
+            </div>
 
-  <footer class=""site-footer"">
-    <p>&copy; 2026 University Student Clubs Portal</p>
-  </footer>
+            <div class="event-card">
+                <h4>Sports Tournament: Basketball Finals</h4>
+                <p class="event-meta"><strong>Club:</strong> Sports Club</p>
+                <p class="event-meta"><strong>Date:</strong> Wednesday, March 27, 2026</p>
+                <p class="event-meta"><strong>Time:</strong> 4:00 PM - 7:00 PM</p>
+                <p class="event-meta"><strong>Venue:</strong> Sports Complex, Main Court</p>
+                <p class="event-description">Come cheer for your favorite teams! Free refreshments for attendees.</p>
+            </div>
+
+            <div class="event-card">
+                <h4>Cultural Night: International Food Festival</h4>
+                <p class="event-meta"><strong>Club:</strong> Cultural Club</p>
+                <p class="event-meta"><strong>Date:</strong> Friday, March 29, 2026</p>
+                <p class="event-meta"><strong>Time:</strong> 6:00 PM - 9:00 PM</p>
+                <p class="event-meta"><strong>Venue:</strong> Student Union Building, Hall A</p>
+                <p class="event-description">Taste dishes from 10 different countries! Cultural performances included.</p>
+            </div>
+        </section>
+
+        <section class="events-section">
+            <h3>Next Month's Events</h3>
+            
+            <div class="event-card">
+                <h4>Debate Competition: "AI: Friend or Foe?"</h4>
+                <p class="event-meta"><strong>Club:</strong> Debate Society</p>
+                <p class="event-meta"><strong>Date:</strong> April 5, 2026</p>
+                <p class="event-meta"><strong>Time:</strong> 2:00 PM - 5:00 PM</p>
+                <p class="event-meta"><strong>Venue:</strong> Humanities Hall, Auditorium</p>
+                <p class="event-description">Watch teams debate this hot topic. Registration open for speakers!</p>
+            </div>
+
+            <div class="event-card">
+                <h4>Hackathon 2026: 24-Hour Coding Challenge</h4>
+                <p class="event-meta"><strong>Club:</strong> Tech Club</p>
+                <p class="event-meta"><strong>Date:</strong> April 12-13, 2026</p>
+                <p class="event-meta"><strong>Time:</strong> 10:00 AM - 10:00 AM (next day)</p>
+                <p class="event-meta"><strong>Venue:</strong> CS Building, Floor 2</p>
+                <p class="event-description">Form teams of 3-4 and build innovative solutions. Prizes worth Rs. 50,000!</p>
+            </div>
+        </section>
+
+        <section class="events-section">
+            <h3>Regular Weekly Meetings</h3>
+            
+            <table class="events-table">
+                <thead>
+                    <tr>
+                        <th>Club</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                        <th>Venue</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Tech Club</td>
+                        <td>Every Monday</td>
+                        <td>3:00 PM - 5:00 PM</td>
+                        <td>CS Lab 101</td>
+                    </tr>
+                    <tr>
+                        <td>Sports Club</td>
+                        <td>Every Tuesday</td>
+                        <td>4:00 PM - 6:00 PM</td>
+                        <td>Sports Complex</td>
+                    </tr>
+                    <tr>
+                        <td>Cultural Club</td>
+                        <td>Every Wednesday</td>
+                        <td>3:30 PM - 5:30 PM</td>
+                        <td>Arts Room 205</td>
+                    </tr>
+                    <tr>
+                        <td>Debate Society</td>
+                        <td>Every Thursday</td>
+                        <td>4:00 PM - 6:00 PM</td>
+                        <td>Humanities Hall 50</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="events-section">
+            <h3>How to Participate</h3>
+            <ul>
+                <li>All events are free for registered club members</li>
+                <li>Non-members can attend as guests (Rs. 50 entry fee)</li>
+                <li>Register online at least 24 hours before the event</li>
+                <li>Bring your student ID for entry</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 University Student Clubs Portal | Contact: events@clubs.edu</p>
+    </footer>
 </body>
 </html>
